@@ -61,7 +61,7 @@ train_dataloader = DataLoader(train_dataset, batch_size = 64, shuffle=True)
 val_dataloader = DataLoader(val_dataset, batch_size = 64, shuffle=False)
 
 # Visualize images in the dataset
-samples, labels = iter(train_dataloader).next()
+samples, labels = next(iter(train_dataloader)) #error .next
 plt.figure(figsize=(16,32))
 grid_imgs = torchvision.utils.make_grid(samples[:32])
 np_grid_imgs = grid_imgs.numpy()
