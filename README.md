@@ -1,6 +1,6 @@
 # Mooc AII
 
-#ABRIR EN LA RAMA JAVIERPOZOMONSALVE
+# ABRIR EN LA RAMA JAVIERPOZOMONSALVE
 
 Repositorio del proyecto del módulo 6 del curso mooc: Herramientas software para la realización de
 proyectos de AI aplicados a la investigación.
